@@ -13,8 +13,8 @@ describe('index', () => {
 
 
   it('runs', () => {
-    expect(true).to.be.true //(original code, fails)
-      // expect(true).toEqual(true) // this passes
+    // expect(true).to.be.true //(original code, fails)
+    expect(true).toEqual(true) // this passes
       // expect(true).toBe(true)  // this passes
   })
 })
